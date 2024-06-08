@@ -12,7 +12,7 @@ ws_controller = api.SocketControl()
 
 
 def main(page: ft.Page):
-    page.title = "Chat Flet Messenger"
+    page.title = "Anova Message"
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
 
@@ -244,7 +244,7 @@ def main(page: ft.Page):
     principal_content = ft.Column(
         [
             ft.Icon(ft.icons.WECHAT, size=200, color=ft.colors.BLUE),
-            ft.Text(value="Chat Flet Messenger", size=50, color=ft.colors.WHITE),
+            ft.Text(value="Anova Message", size=50, color=ft.colors.WHITE),
         ],
         height=400,
         width=600,
